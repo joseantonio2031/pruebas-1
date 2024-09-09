@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="ou)D^uwuD[0u(Q_kl?0N" x="0" y="0"><statement name="HANDLER"><block type="device_show_number" id="BO1*6J{=drPhz=sD5ML{"><value name="number"><shadow type="math_number" id="qK#WWs1_9MVz[3BmeSNK"><field name="NUM">0</field></shadow><block type="device_temperature" id="z0KR}1sPnts3W=SP$6ES"></block></value><next><block type="controls_if" id="1-B5m/v-^XtK,a4$8-pP"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="d2b2;m2O;+S*HgC!6r^-"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="ko8{Q66O6=hN.)K6egW_"><field name="OP">GTE</field><value name="A"><shadow type="math_number" id="#SoT-RYgc8fOY.hx)0nd"><field name="NUM">0</field></shadow><block type="device_temperature" id="(7Bv`!US/NQI+M*sqq2s"></block></value><value name="B"><shadow type="math_number" id="/CqYEFXshgv~m.!EWYJZ"><field name="NUM">29</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="L(mbZfw^)o]-V`dp17IR"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # . # . 
+        . . # . . 
+        . . . . .
+        `</field><next><block type="device_clear_display" id="E[E]cnhyoDEP,`l!=8%K"></block></next></block></statement><value name="IF1"><shadow type="logic_boolean" id="hD!7-va_u-oyzGW/zD8!"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="NkxN42;)$kUFi9KgR5(X"><field name="OP">LTE</field><value name="A"><shadow type="math_number" id="`Kw]PqqXPQX7D2zOwyYJ"><field name="NUM">0</field></shadow><block type="device_temperature" id="$$eTWxse.shC.JS(s=E)"></block></value><value name="B"><shadow type="math_number" id="uoS=mA+zOxR@?#Q4.Q1z"><field name="NUM">25</field></shadow></value></block></value><statement name="DO1"><block type="basic_show_icon" id="Hp@HwyW#b+Gs[:(:#=wL"><field name="i">IconNames.Umbrella</field><next><block type="device_clear_display" id="`h-(W}E74CLjIri|ES4y"></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="`oX]FR]6bF;34#`UkPyj"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="music_playable_play_default_bkg" id="AO**_BGqSLQpSF8bsid="><field name="playbackMode">music.PlaybackMode.InBackground</field><value name="toPlay"><shadow type="device_builtin_melody_playable" id="A8;rfCqGBwt-FlMFZrMv"><field name="melody">Melodies.Baddy</field></shadow></value><next><block type="device_clear_display" id="FKmiBak3~G15X27j|ttl"></block></next></block></next></block></statement></block></next></block></statement></block></xml>
